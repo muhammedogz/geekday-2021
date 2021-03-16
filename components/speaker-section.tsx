@@ -91,11 +91,11 @@ export default function SpeakerSection({ speaker }: Props) {
                 <TwitterIcon />
               </span>
             )}
-            {speaker.github ? (
+            {speaker.github_copy1 ? (
               <a
                 aria-label="GitHub"
                 className={styles.githubIcon}
-                href={speaker.github}
+                href={speaker.github_copy1}
                 target="_blank"
                 rel="noopener noreferrer"
               >
