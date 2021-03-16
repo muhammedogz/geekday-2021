@@ -1,0 +1,43 @@
+.bilet{
+    width: 120px;
+    height: 40px;
+    margin-top: var(--space-4x);
+    border-radius: var(--space-2x);
+    border: 1px solid var(--brand);
+    background: var(--brand);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: var(--text-md);
+    letter-spacing: -0.02em;
+    outline: none;
+    font-weight: 500;
+    color: white;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.div{
+    height: 75px;
+    position: relative;
+
+}
+
+.bilet:hover{
+    background: black;
+    color: var(--brand);
+}
+
+
+.Center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
