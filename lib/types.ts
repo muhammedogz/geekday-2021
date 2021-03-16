@@ -25,11 +25,11 @@ export type Speaker = {
   slug: string;
   twitter: string;
   github: string;
-  github_copy1: string;
   company: string;
   talk: Talk;
   image: Image;
   imageSquare: Image;
+  github_copy1: string;
 };
 
 export type Stage = {
