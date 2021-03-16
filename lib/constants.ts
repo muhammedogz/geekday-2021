@@ -23,7 +23,7 @@ export const SITE_NAME = 'Geekday';
 export const META_DESCRIPTION =
   'GTU Bilgisayar Topluluğu ekibinin düzenlediği 5.Geekday Etkinliği'
 export const SITE_DESCRIPTION =
-  'Biglisayar Geeklerinin Buluşma Adresi';
+  'Biglisayar Geeklerinin Buluşma Noktası';
 export const DATE = '3-4 Nisan, 2021';
 export const SHORT_DATE = 'Nisan 3 - 13:45';
 export const FULL_DATE = 'Nisan 3 - 13:45';
@@ -42,7 +42,7 @@ export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
     name: 'Sahne 1',
-    route: '/stage/1'
+    route: '/sahne/1'
   },
   {
     name: 'Sahne 2',
