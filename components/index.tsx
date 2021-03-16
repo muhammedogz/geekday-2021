@@ -19,6 +19,7 @@ import { PageState, ConfDataContext, UserData } from '@lib/hooks/use-conf-data';
 import Layout from './layout';
 import ConfContainer from './conf-container';
 import Hero from './hero';
+import Logo from "./geek-main-logo"
 
 type Props = {
   defaultUserData: UserData;
@@ -37,7 +38,8 @@ export default function Conf({
       <Layout>
         <ConfContainer>
             <>
-              <Hero />
+            <Logo />
+            <Hero />
             </>
         </ConfContainer>
       </Layout>
