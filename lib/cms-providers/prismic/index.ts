@@ -77,6 +77,12 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
                 url
               }
             }
+            github_copy1 {
+                _linkType
+                ...on _ExternalLink {
+                  url
+                }
+              }
             company
             image
             talk {
@@ -103,6 +109,7 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
       title: richTextAsText(edge.node.title),
       twitter: getLinkUrl(edge.node.twitter),
       github: getLinkUrl(edge.node.github),
+      github_copy1:getLinkUrl(edge.node.github_copy1),
       company: richTextAsText(edge.node.company),
       image: {
         url:
