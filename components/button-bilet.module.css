@@ -18,11 +18,22 @@
     justify-content: center;
     position: relative;
 
+
 }
 
 .div{
+    display: contents;
     height: 75px;
+    border: 3px solid green;
     position: relative;
+
+}
+
+.link{
+
+    display: contents;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -34,7 +45,7 @@
 
 .Center {
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
