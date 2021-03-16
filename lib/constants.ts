@@ -41,35 +41,35 @@ export const REPO = 'https://github.com/muhammedogz/geekday2021';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Stage A',
+    name: 'Sahne 1',
     route: '/stage/a'
   },
   {
-    name: 'Stage C',
+    name: 'Sahne 2',
     route: '/stage/c'
   },
   {
-    name: 'Stage M',
+    name: 'Sahne 3',
     route: '/stage/m'
   },
   {
-    name: 'Stage E',
+    name: 'Sahne 4',
     route: '/stage/e'
   },
   {
-    name: 'Schedule',
+    name: 'Takvim',
     route: '/schedule'
   },
   {
-    name: 'Speakers',
+    name: 'Konuşmacılar',
     route: '/speakers'
   },
   {
-    name: 'Expo',
+    name: 'Sponsorlar - Fuaye',
     route: '/expo'
   },
   {
-    name: 'Jobs',
+    name: 'Çekilişler',
     route: '/jobs'
   }
 ];
