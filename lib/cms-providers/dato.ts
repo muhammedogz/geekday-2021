@@ -41,6 +41,9 @@ async function fetchCmsAPI(query: string, { variables }: { variables?: Record<st
   return json.data;
 }
 
+// TODO 
+// add -> web 
+// add -> linkedin
 export async function getAllSpeakers(): Promise<Speaker[]> {
   const data = await fetchCmsAPI(`
     {
@@ -49,7 +52,8 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
         bio
         title
         slug
-
+        web
+        linkedin
         twitter
         github
         company
