@@ -86,7 +86,7 @@
 
 .button:hover,
 .button:focus {
-  background: black;
+  background: purple;
   color: #fff;
 }
 
