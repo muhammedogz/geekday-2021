@@ -29,7 +29,10 @@ import styles from './mobile-menu.module.css';
 function ModalDialog(props: Parameters<typeof useOverlay>[0] & Parameters<typeof useDialog>[0]) {
   const router = useRouter();
   const activeRoute = router.asPath;
-
+  const openInNewTab = (url: string | undefined) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
   const ref = useRef<HTMLElement | null>(null);
   const { modalProps } = useModal();
   const { overlayProps } = useOverlay(props, ref);
@@ -52,6 +55,15 @@ function ModalDialog(props: Parameters<typeof useOverlay>[0] & Parameters<typeof
               </a>
             </Link>
           ))}
+          <Link  key={'name'} href={''}>
+          <a onClick={() => openInNewTab('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')}
+                className={cn(styles.renk ,styles['nav-item'], {
+                  [styles['nav-active']]: activeRoute.startsWith('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')
+                })}
+              >
+                    BILET AL!
+                  </a>
+        </Link>
         </nav>
       </FocusScope>
     </div>

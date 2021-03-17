@@ -25,6 +25,11 @@ import MobileMenu from './mobile-menu';
 import Footer, { HostedByVercel } from './footer';
 import ViewSource from '@components/view-source';
 
+const openInNewTab = (url: string | undefined) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+}
+
 type Props = {
   children: React.ReactNode;
   className?: string;
@@ -63,6 +68,15 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
                   </a>
                 </Link>
               ))}
+              <Link key={'name'} href={''}>
+                  <a onClick={() => openInNewTab('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')}
+                    className={cn(styles.tab, {
+                      [styles['tab-active']]: activeRoute.startsWith('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')
+                    })}
+                  >
+                    BILET AL!
+                  </a>
+                </Link>
             </div>
             <div className={cn(styles['header-right'])}>
               <HostedByVercel />
