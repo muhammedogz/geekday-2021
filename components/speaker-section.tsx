@@ -97,10 +97,10 @@ export default function SpeakerSection({ speaker }: Props) {
             <h2 className={styles['bio-header']}>Bio</h2>
             <p className={styles.bio}>{speaker.bio}</p>
             <h3 className={styles['socials-header']}>Social Media</h3>
-            {speaker.twitter ? (
+            {speaker.web ? (
               <a
                 aria-label="Twitter"
-                href={speaker.twitter}
+                href={speaker.web}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -125,10 +125,10 @@ export default function SpeakerSection({ speaker }: Props) {
                 <TwitterIcon />
               </span>
             )} <text></text>
-            {speaker.twitter ? (
+            {speaker.linkedin ? (
               <a
                 aria-label="Twitter"
-                href={speaker.twitter}
+                href={speaker.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
               >
