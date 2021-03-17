@@ -70,7 +70,7 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
               ))}
               <Link key={'name'} href={''}>
                   <a onClick={() => openInNewTab('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')}
-                    className={cn(styles.tab, {
+                    className={cn(styles.renk,styles.tab, {
                       [styles['tab-active']]: activeRoute.startsWith('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')
                     })}
                   >
