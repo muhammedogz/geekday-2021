@@ -108,7 +108,7 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
       slug: edge.node._meta.uid,
       title: richTextAsText(edge.node.title),
       twitter: getLinkUrl(edge.node.twitter),
-      github: getLinkUrl(edge.node.title),
+      github: getLinkUrl(edge.node.github),
       domates: getLinkUrl(edge.node.domates),
       company: richTextAsText(edge.node.company),
       image: {
