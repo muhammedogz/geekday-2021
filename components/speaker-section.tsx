@@ -72,7 +72,7 @@ export default function SpeakerSection({ speaker }: Props) {
           >
             <path d="M15 18l-6-6 6-6" />
           </svg>
-          Back to speakers
+          Geri Dön
         </a>
       </Link>
       <div key={speaker.name} className={styles.container}>

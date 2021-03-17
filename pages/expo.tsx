@@ -31,7 +31,7 @@ type Props = {
 
 export default function ExpoPage({ sponsors }: Props) {
   const meta = {
-    title: 'Fuaye',
+    title: 'Fuaye - Geekday',
     description: META_DESCRIPTION
   };
 
