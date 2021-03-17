@@ -37,7 +37,7 @@ export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 
 export const CODE_OF_CONDUCT =
   'https://www.notion.so/Code-of-Conduct-6b5c6f167d8f45bd9f999fc28f44b984';
-export const REPO = 'https://github.com/muhammedogz/geekday2021';
+export const REPO = 'https://github.com/muhammedogz/geekday-2021';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
