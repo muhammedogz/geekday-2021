@@ -31,14 +31,14 @@ type Props = {
 
 export default function SchedulePage({ allStages }: Props) {
   const meta = {
-    title: 'Schedule - Virtual Event Starter Kit',
+    title: 'Takvim - Geekday 2021 !',
     description: META_DESCRIPTION
   };
 
   return (
     <Page meta={meta}>
       <Layout>
-        <Header hero="Schedule" description={meta.description} />
+        <Header hero="Etkinlik Takvimi" description="İki günün de oturumlarını buradan inceleyebilirsiniz." />
         <Schedule allStages={allStages} />
       </Layout>
     </Page>
