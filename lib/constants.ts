@@ -24,9 +24,9 @@ export const META_DESCRIPTION =
   'GTU Bilgisayar Topluluğu"nun düzenlediği 5.Geekday Etkinliği'
 export const SITE_DESCRIPTION =
   'Biglisayar Geeklerinin Buluşma Noktası';
-  export const DATE = 'October 12, 2020';
-  export const SHORT_DATE = 'Oct 12 - 9:00am PST';
-  export const FULL_DATE = 'Oct 12th 9am Pacific Time (GMT-7)';
+export const DATE = '3-4 Nisan, 2021';
+export const SHORT_DATE = '3 Nisan - 13:30';
+export const FULL_DATE = '3 Nisan * 13:45';
 export const TWEET_TEXT = META_DESCRIPTION;
 export const COOKIE = 'user-id';
 
