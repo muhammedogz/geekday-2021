@@ -31,14 +31,22 @@ type Props = {
 
 export default function ExpoPage({ sponsors }: Props) {
   const meta = {
+<<<<<<< HEAD
     title: 'Expo - Virtual Event Starter Kit',
+=======
+    title: 'Fuaye - Geekday',
+>>>>>>> old/master
     description: META_DESCRIPTION
   };
 
   return (
     <Page meta={meta}>
       <Layout>
+<<<<<<< HEAD
         <Header hero="Expo" description={meta.description} />
+=======
+        <Header hero="Sponsorlar" description="Destekleriyle Yanimizda Olan Sponsorlarımız. Kartlara tıklayarak daha fazla bilgi edinebilirsiniz." />
+>>>>>>> old/master
         <SponsorsGrid sponsors={sponsors} />
       </Layout>
     </Page>

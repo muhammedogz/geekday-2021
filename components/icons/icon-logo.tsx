@@ -21,9 +21,15 @@ export default function IconLogo({
 }) {
   return (
     <svg
+<<<<<<< HEAD
       width="100%"
       height="100%"
       viewBox="0 0 32 32"
+=======
+    width="100%" 
+    height="100%" 
+    viewBox="0 0 682 828"
+>>>>>>> old/master
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
@@ -32,7 +38,11 @@ export default function IconLogo({
       <path
         fillRule="evenodd"
         clipRule="evenodd"
+<<<<<<< HEAD
         d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
+=======
+        d="M0,0L94,94V376l86,86V610L2,432ZM154,346V199L334,379V807l-93-93V433ZM393,228V625L503,515V304L603,204V19Zm288-7L571,331V541l-99,99V826L680,618Z"
+>>>>>>> old/master
         fill={foregroundColor}
       />
     </svg>

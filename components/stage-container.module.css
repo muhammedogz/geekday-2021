@@ -86,7 +86,11 @@
 
 .button:hover,
 .button:focus {
+<<<<<<< HEAD
   background: black;
+=======
+  background: purple;
+>>>>>>> old/master
   color: #fff;
 }
 

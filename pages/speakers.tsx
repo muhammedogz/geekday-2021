@@ -31,13 +31,21 @@ type Props = {
 
 export default function Speakers({ speakers }: Props) {
   const meta = {
+<<<<<<< HEAD
     title: 'Speakers - Virtual Event Starter Kit',
+=======
+    title: 'Konuşmacılar - Geekday',
+>>>>>>> old/master
     description: META_DESCRIPTION
   };
   return (
     <Page meta={meta}>
       <Layout>
+<<<<<<< HEAD
         <Header hero="Speakers" description={meta.description} />
+=======
+        <Header hero="Konuşmacılar" description="Konuşmacılarımızı buradan görebilir, kartlara tıklayarak bilgiler edinebilirsiniz." />
+>>>>>>> old/master
         <SpeakersGrid speakers={speakers} />
       </Layout>
     </Page>

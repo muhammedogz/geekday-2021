@@ -43,7 +43,11 @@ export default function SponsorSection({ sponsor }: Props) {
           >
             <path d="M15 18l-6-6 6-6" />
           </svg>
+<<<<<<< HEAD
           Back to expo
+=======
+          Geri Dön
+>>>>>>> old/master
         </a>
       </Link>
       <div className={styles.layout}>
@@ -81,6 +85,7 @@ export default function SponsorSection({ sponsor }: Props) {
             >
               {sponsor.callToAction}
             </a>
+<<<<<<< HEAD
             <a
               href={sponsor.discord}
               target="_blank"
@@ -93,6 +98,11 @@ export default function SponsorSection({ sponsor }: Props) {
           </div>
           <div className={styles.resources}>
             <h2 className={styles.heading}>Resources</h2>
+=======
+          </div>
+          <div className={styles.resources}>
+            <h2 className={styles.heading}>Ekstra</h2>
+>>>>>>> old/master
             {sponsor.links.map(link => (
               <a
                 key={link.url}
