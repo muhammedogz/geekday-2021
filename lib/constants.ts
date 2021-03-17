@@ -42,7 +42,7 @@ export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
     name: 'Sahne 1',
-    route: '/stage/a'
+    route: '/stage/1'
   },
   {
     name: 'Sahne 2',
@@ -64,10 +64,11 @@ export const NAVIGATION = [
     name: 'Sponsorlar - Fuaye',
     route: '/expo'
   },
-  {
+  // TODO
+  /*{
     name: 'Çekilişler',
     route: '/jobs'
-  }
+  }*/
 ];
 
 export type TicketGenerationState = 'default' | 'loading';

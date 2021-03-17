@@ -37,7 +37,7 @@ export default function Speakers({ speakers }: Props) {
   return (
     <Page meta={meta}>
       <Layout>
-        <Header hero="Speakers" description={meta.description} />
+        <Header hero="Konuşmacılar" description="Konuşmacılarımızı buradan görebilir, kartlara tıklayarak bilgiler edinebilirsiniz." />
         <SpeakersGrid speakers={speakers} />
       </Layout>
     </Page>
