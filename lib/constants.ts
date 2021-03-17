@@ -46,11 +46,11 @@ export const NAVIGATION = [
   },
   {
     name: 'Sahne 2',
-    route: '/stage/c'
+    route: '/stage/2'
   },
   {
     name: 'Sahne 3',
-    route: '/stage/m'
+    route: '/stage/3'
   },
   {
     name: 'Takvim',
