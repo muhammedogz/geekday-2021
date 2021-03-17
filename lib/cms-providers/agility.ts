@@ -66,8 +66,9 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
       title: speaker.fields.title,
       bio: speaker.fields.bio,
       slug: speaker.fields.slug,
+      web: speaker.fields.web,
       twitter: speaker.fields.twitter,
-      domates: speaker.fields.domates,
+      linkedin: speaker.fields.linkedin,
       github: speaker.fields.github,
       company: speaker.fields.company.fields.name,
       image: {

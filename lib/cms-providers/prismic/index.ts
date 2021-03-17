@@ -65,19 +65,25 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
             name
             bio
             title
+            web {
+                _linkType
+                ...on _ExternalLink {
+                  url
+                }
+            }
             twitter {
               _linkType
               ...on _ExternalLink {
                 url
               }
             }
-            github {
+            linkedin {
               _linkType
               ...on _ExternalLink {
                 url
               }
             }
-            domates {
+            github {
                 _linkType
                 ...on _ExternalLink {
                   url
@@ -107,9 +113,10 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
       bio: richTextAsText(edge.node.bio),
       slug: edge.node._meta.uid,
       title: richTextAsText(edge.node.title),
+      web: getLinkUrl(edge.node.web),
       twitter: getLinkUrl(edge.node.twitter),
+      linkedin: getLinkUrl(edge.node.linkedin),
       github: getLinkUrl(edge.node.github),
-      domates: getLinkUrl(edge.node.domates),
       company: richTextAsText(edge.node.company),
       image: {
         url:

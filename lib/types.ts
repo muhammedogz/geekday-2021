@@ -23,13 +23,14 @@ export type Speaker = {
   bio: string;
   title: string;
   slug: string;
+  web: string;
   twitter: string;
+  linkedin: string;
   github: string;
   company: string;
   talk: Talk;
   image: Image;
   imageSquare: Image;
-  domates: string;
 };
 
 export type Stage = {
