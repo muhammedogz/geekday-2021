@@ -29,7 +29,7 @@ export type Speaker = {
   talk: Talk;
   image: Image;
   imageSquare: Image;
-  github_copy1: string;
+  domates: string;
 };
 
 export type Stage = {

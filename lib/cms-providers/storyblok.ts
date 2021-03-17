@@ -91,9 +91,6 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
           github {
             url
           }
-          github_copy1 {
-            url
-          }
           company
           image {
             url: filename

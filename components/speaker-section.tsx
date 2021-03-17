@@ -106,11 +106,11 @@ export default function SpeakerSection({ speaker }: Props) {
                 <GithubIcon color="#D8D8D8" size={24} />
               </span>
             )}
-            {speaker.github_copy1 ? (
+            {speaker.domates ? (
               <a
                 aria-label="GitHub"
                 className={styles.githubIcon}
-                href={speaker.github_copy1}
+                href={speaker.domates}
                 target="_blank"
                 rel="noopener noreferrer"
               >
