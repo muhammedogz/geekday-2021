@@ -49,13 +49,9 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
           bio
           title
           slug
-<<<<<<< HEAD
-          twitter
-=======
           web
           twitter
           linkedin
->>>>>>> old/master
           github
           company
           talk {

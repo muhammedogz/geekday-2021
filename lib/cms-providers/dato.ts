@@ -35,11 +35,7 @@ async function fetchCmsAPI(query: string, { variables }: { variables?: Record<st
   if (json.errors) {
     // eslint-disable-next-line no-console
     console.error(json.errors);
-<<<<<<< HEAD
-    throw new Error('Failed to fetch API');
-=======
     //throw new Error('Failed to fetch API');
->>>>>>> old/master
   }
 
   return json.data;
@@ -53,10 +49,7 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
         bio
         title
         slug
-<<<<<<< HEAD
-=======
 
->>>>>>> old/master
         twitter
         github
         company

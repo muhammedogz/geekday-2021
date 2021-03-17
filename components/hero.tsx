@@ -17,12 +17,8 @@
 import cn from 'classnames';
 import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
-<<<<<<< HEAD
-import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
-=======
 import {DATE, SITE_DESCRIPTION } from '@lib/constants';
 import Bilet from "./button-bilet"
->>>>>>> old/master
 
 export default function Hero() {
   return (
@@ -38,12 +34,7 @@ export default function Hero() {
         {SITE_DESCRIPTION}
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-<<<<<<< HEAD
-        The first {BRAND_NAME}
-        <br className={styleUtils['show-on-desktop']} /> global user conference
-=======
         <Bilet />
->>>>>>> old/master
       </h1>
       <h2
         className={cn(

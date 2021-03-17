@@ -65,40 +65,30 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
             name
             bio
             title
-<<<<<<< HEAD
-=======
             web {
                 _linkType
                 ...on _ExternalLink {
                   url
                 }
             }
->>>>>>> old/master
             twitter {
               _linkType
               ...on _ExternalLink {
                 url
               }
             }
-<<<<<<< HEAD
-            github {
-=======
             linkedin {
->>>>>>> old/master
               _linkType
               ...on _ExternalLink {
                 url
               }
             }
-<<<<<<< HEAD
-=======
             github {
                 _linkType
                 ...on _ExternalLink {
                   url
                 }
             }
->>>>>>> old/master
             company
             image
             talk {
@@ -123,13 +113,9 @@ export async function getAllSpeakers(): Promise<Speaker[]> {
       bio: richTextAsText(edge.node.bio),
       slug: edge.node._meta.uid,
       title: richTextAsText(edge.node.title),
-<<<<<<< HEAD
-      twitter: getLinkUrl(edge.node.twitter),
-=======
       web: getLinkUrl(edge.node.web),
       twitter: getLinkUrl(edge.node.twitter),
       linkedin: getLinkUrl(edge.node.linkedin),
->>>>>>> old/master
       github: getLinkUrl(edge.node.github),
       company: richTextAsText(edge.node.company),
       image: {

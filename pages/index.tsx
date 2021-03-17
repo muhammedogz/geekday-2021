@@ -24,11 +24,7 @@ import { META_DESCRIPTION } from '@lib/constants';
 export default function Conf() {
   const { query } = useRouter();
   const meta = {
-<<<<<<< HEAD
-    title: 'Demo - Virtual Event Starter Kit',
-=======
     title: 'Geekday Live !',
->>>>>>> old/master
     description: META_DESCRIPTION
   };
   const ticketNumber = query.ticketNumber?.toString();

@@ -30,11 +30,7 @@ type Props = {
 
 export default function SponsorPage({ sponsor }: Props) {
   const meta = {
-<<<<<<< HEAD
-    title: 'Demo - Virtual Event Starter Kit',
-=======
     title: 'Sponsorlar - GEEKDAY',
->>>>>>> old/master
     description: META_DESCRIPTION
   };
 

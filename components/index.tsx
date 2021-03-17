@@ -16,19 +16,10 @@
 
 import { useState } from 'react';
 import { PageState, ConfDataContext, UserData } from '@lib/hooks/use-conf-data';
-<<<<<<< HEAD
-import Ticket from './ticket';
-import Layout from './layout';
-import ConfContainer from './conf-container';
-import Hero from './hero';
-import Form from './form';
-import LearnMore from './learn-more';
-=======
 import Layout from './layout';
 import ConfContainer from './conf-container';
 import Hero from './hero';
 import Logo from "./geek-main-logo"
->>>>>>> old/master
 
 type Props = {
   defaultUserData: UserData;
@@ -38,46 +29,12 @@ type Props = {
 
 export default function Conf({
   defaultUserData,
-<<<<<<< HEAD
-  sharePage,
-=======
->>>>>>> old/master
   defaultPageState = 'registration'
 }: Props) {
   const [userData, setUserData] = useState<UserData>(defaultUserData);
   const [pageState, setPageState] = useState<PageState>(defaultPageState);
 
   return (
-<<<<<<< HEAD
-    <ConfDataContext.Provider
-      value={{
-        userData,
-        setUserData,
-        setPageState
-      }}
-    >
-      <Layout>
-        <ConfContainer>
-          {pageState === 'registration' && !sharePage ? (
-            <>
-              <Hero />
-              <Form />
-              <LearnMore />
-            </>
-          ) : (
-            <Ticket
-              username={userData.username}
-              name={userData.name}
-              ticketNumber={userData.ticketNumber}
-              sharePage={sharePage}
-            />
-          )}
-        </ConfContainer>
-      </Layout>
-    </ConfDataContext.Provider>
-  );
-}
-=======
       <Layout>
         <ConfContainer>
             <>
@@ -87,4 +44,3 @@ export default function Conf({
         </ConfContainer>
       </Layout>
   )}
->>>>>>> old/master

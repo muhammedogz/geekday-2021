@@ -23,13 +23,9 @@ export type Speaker = {
   bio: string;
   title: string;
   slug: string;
-<<<<<<< HEAD
-  twitter: string;
-=======
   web: string;
   twitter: string;
   linkedin: string;
->>>>>>> old/master
   github: string;
   company: string;
   talk: Talk;
