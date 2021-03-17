@@ -41,13 +41,11 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
   const description = meta.description || SITE_NAME;
 
   return (
-    
-    <div className={cn('page-container', { full: fullViewport })}>
       <Head>
         <title>{title}</title>
         <meta property="og:title" content={title} />
         <meta property="og:url" content={url} />
-        <meta property="og:image" content="https://i.ibb.co/B4X2pMS/link-Image.png" />
+        <meta property="og:image" content="https://i.ibb.co/xS3xnDb/link-Image.png" />
         <meta name="description" content={description} />
         <meta property="og:description" content={description} />
         <meta name="twitter:site" content={`@${TWITTER_USER_NAME}`} />
