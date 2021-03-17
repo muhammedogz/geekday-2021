@@ -21,8 +21,8 @@ export default function IconLogo({
 }) {
   return (
     <svg
-    width="682" 
-    height="828" 
+    width="100%" 
+    height="100%" 
     viewBox="0 0 682 828"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
