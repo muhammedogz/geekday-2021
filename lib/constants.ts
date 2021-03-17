@@ -21,7 +21,7 @@ export const BRAND_NAME = 'Bilgisayar Topluluğu';
 export const SITE_NAME_MULTILINE = ['Geekday', '2021'];
 export const SITE_NAME = 'Geekday';
 export const META_DESCRIPTION =
-  'GTU Bilgisayar Topluluğu ekibinin düzenlediği 5.Geekday Etkinliği'
+  'GTU Bilgisayar Topluluğu"nun düzenlediği 5.Geekday Etkinliği'
 export const SITE_DESCRIPTION =
   'Biglisayar Geeklerinin Buluşma Noktası';
 export const DATE = '3-4 Nisan, 2021';
