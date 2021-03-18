@@ -39,6 +39,17 @@
   padding: 0 24px;
 }
 
+.line{
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    }
+
+.grid2 {
+    margin: auto;
+  }
+
 @media (min-width: 768px) {
   .card {
     margin-bottom: 0;

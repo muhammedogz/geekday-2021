@@ -20,6 +20,8 @@ import cn from 'classnames';
 import { Sponsor } from '@lib/types';
 import styles from './sponsors-grid.module.css';
 
+
+
 function SponsorCard({ sponsor }: { sponsor: Sponsor }) {
   return (
     <Link key={sponsor.name} href={`/expo/${sponsor.slug}`}>
@@ -63,20 +65,40 @@ type Props = {
 
 export default function SponsorsGrid({ sponsors }: Props) {
   const silverSponsors = sponsors.filter(s => s.tier === 'silver');
-  const otherSponsors = sponsors.filter(s => s.tier !== 'silver');
+  const diamondSponsors = sponsors.filter(s => s.tier === 'diamond');
+  const goldSponsors = sponsors.filter(s => s.tier === 'gold');
 
   return (
     <>
+    <div className={styles.grid2}>
+        <h1>Sponsorlarımız</h1>
+    <hr />
+    </div>
       <div className={styles.grid}>
-        {otherSponsors.map(sponsor => (
+        {diamondSponsors.map(sponsor => (
           <SponsorCard key={sponsor.name} sponsor={sponsor} />
         ))}
       </div>
-      <div className={styles.grid}>
+      <div className={styles.grid2}>
+        <h1>Medya Sponsorlarımız</h1>
+      <hr />
+    </div>
+    <div className={styles.grid}>
+        {goldSponsors.map(sponsor => (
+          <SponsorCard key={sponsor.name} sponsor={sponsor} />
+        ))}
+      </div>
+      
+      <div className={styles.grid2}>
+        <h1>Sosyal Medya Destekçilerimiz</h1>
+      <hr />    
+    </div>
+    <div className={styles.grid}>
         {silverSponsors.map(sponsor => (
           <SponsorCard key={sponsor.name} sponsor={sponsor} />
         ))}
       </div>
+      
     </>
   );
 }
