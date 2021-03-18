@@ -45,10 +45,10 @@ export default function Footer() {
           Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} Tüm
           hakları saklıdır.
         </div>
-        <div>
-            <a
+        <div >
+            <a 
               href={"https://btgtu.com/linkler"}
-              className={styles['footer-link']}
+              className={cn(styles.renk,styles['footer-link'])}
               target="_blank"
               rel="noopener noreferrer"
             >
