@@ -45,6 +45,16 @@ export default function Footer() {
           Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} Tüm
           hakları saklıdır.
         </div>
+        <div>
+            <a
+              href={"https://btgtu.com/linkler"}
+              className={styles['footer-link']}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            👩‍💻👨‍💻 Gebze Teknik Üniversitesi Bilgisayar Topluluğu 💘 
+            </a> <text className={styles.gizle}> --------------- </text>
+        </div>
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
             <a
