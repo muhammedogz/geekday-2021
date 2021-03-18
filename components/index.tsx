@@ -20,6 +20,8 @@ import Layout from './layout';
 import ConfContainer from './conf-container';
 import Hero from './hero';
 import Logo from "./geek-main-logo"
+import style from "./geek-background.module.css"
+import { setLazyProp } from 'next/dist/next-server/server/api-utils';
 
 type Props = {
   defaultUserData: UserData;
@@ -36,11 +38,18 @@ export default function Conf({
 
   return (
       <Layout>
+          <div className={style.bg}>
+              <br ></br>
+              <br ></br>
+              <br ></br>
+              <br ></br>
+              <br ></br>
         <ConfContainer>
             <>
             <Logo />
             <Hero />
             </>
         </ConfContainer>
+      </div>
       </Layout>
   )}
