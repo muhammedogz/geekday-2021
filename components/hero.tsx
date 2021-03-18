@@ -31,7 +31,7 @@ export default function Hero() {
           styles.description
         )}
       >
-        {SITE_DESCRIPTION}
+        {"Bilgisayar Geeklerinin Buluşma Noktası! Sen de hemen yerini ayırt!"}
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
         <Bilet />
@@ -44,7 +44,7 @@ export default function Hero() {
           styles.description
         )}
       >
-        {SITE_DESCRIPTION}
+        {"Bilgisayar Geeklerinin Buluşma Noktası! Sen de hemen yerini ayırt!"}
       </h2>
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
         <p>{DATE}</p>

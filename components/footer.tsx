@@ -27,7 +27,7 @@ export function HostedByVercel() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className={styles['secondary-text']}>Hosted by </div>
+      <div className={styles['secondary-text']}>Powered by </div>
       <VercelLogo color="white" />
     </a>
   );
@@ -53,7 +53,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Kaynak Kodu
+              Kaynak Koduna Git
             </a>
           </p>
           <div className={styles['footer-separator']} />

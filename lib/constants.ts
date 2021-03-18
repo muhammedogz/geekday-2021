@@ -41,15 +41,15 @@ export const REPO = 'https://github.com/muhammedogz/geekday-2021';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Sahne 1',
+    name: 'Salon 1',
     route: '/stage/1'
   },
   {
-    name: 'Sahne 2',
+    name: 'Salon 2',
     route: '/stage/2'
   },
   {
-    name: 'Sahne 3',
+    name: 'Salon 3',
     route: '/stage/3'
   },
   {
@@ -63,7 +63,7 @@ export const NAVIGATION = [
   {
     name: 'Sponsorlar - Fuaye',
     route: '/expo'
-  },
+  }
   // TODO
   /*{
     name: 'Çekilişler',

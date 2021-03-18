@@ -38,7 +38,7 @@ export default function SchedulePage({ allStages }: Props) {
   return (
     <Page meta={meta}>
       <Layout>
-        <Header hero="Etkinlik Takvimi" description="İki günün de oturumlarını buradan inceleyebilirsiniz." />
+        <Header hero="Etkinlik Takvimi" description="Etkinliğimizi bu alandan inceleyebilir, konuşma kartlarına tıklayarak daha fazla bilgi alabilirsiniz." />
         <Schedule allStages={allStages} />
       </Layout>
     </Page>

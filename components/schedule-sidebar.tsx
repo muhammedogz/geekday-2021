@@ -37,10 +37,10 @@ export default function ScheduleSidebar({ allStages }: Props) {
 
   return (
     <div className={styles.schedule}>
-      <h3 className={styles.header}>Schedule</h3>
+      <h3 className={styles.header}>Takvim</h3>
       <p>{SHORT_DATE}</p>
       <Select
-        aria-label="Select a stage"
+        aria-label="Bir Salon Seçin"
         value={currentStageSlug}
         onChange={e => {
           const slug = e.target.value;
