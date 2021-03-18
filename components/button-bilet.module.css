@@ -3,8 +3,8 @@
     height: 40px;
     margin-top: var(--space-4x);
     border-radius: var(--space-2x);
-    border: 1px solid var(--brand);
-    background: var(--brand);
+    border: 1px solid #090979;
+    background: linear-gradient(90deg, rgba(5,0,94,1) 0%, rgba(0,138,214,1) 100%);
     cursor: pointer;
     font-family: inherit;
     font-size: var(--text-md);
