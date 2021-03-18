@@ -53,7 +53,7 @@ export default function Footer() {
               rel="noopener noreferrer"
             >
             👩‍💻👨‍💻 Gebze Teknik Üniversitesi Bilgisayar Topluluğu 💘 
-            </a> <text className={styles.gizle}> --------------- </text>
+            </a> 
         </div>
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
