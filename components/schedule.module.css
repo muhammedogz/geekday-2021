@@ -46,7 +46,7 @@
   padding-bottom: var(--space-2x);
   position: absolute;
   left: initial;
-  color: var(--brand);
+  color: #0f6da3;
 }
 
 .talks {
