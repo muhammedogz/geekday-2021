@@ -69,9 +69,9 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
                 </Link>
               ))}
               <Link key={'name'} href={''}>
-                  <a onClick={() => openInNewTab('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')}
+                  <a onClick={() => openInNewTab('https://kommunity.com/gebze-teknik-universitesi-bilgisayar-toplulugu/events/geekday2021-abbfec06')}
                     className={cn(styles.renk,styles.tab, {
-                      [styles['tab-active']]: activeRoute.startsWith('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')
+                      [styles['tab-active']]: activeRoute.startsWith('https://kommunity.com/gebze-teknik-universitesi-bilgisayar-toplulugu/events/geekday2021-abbfec06')
                     })}
                   >
                     BILET AL!

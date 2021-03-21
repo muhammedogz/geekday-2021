@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className={style.div}>
         <div className={style.Center}>
-        <a className={style.link} onClick={() => openInNewTab('https://www.eventbrite.com/e/geekday-2021-tickets-143585657567')} target="_blank">
+        <a className={style.link} onClick={() => openInNewTab('https://kommunity.com/gebze-teknik-universitesi-bilgisayar-toplulugu/events/geekday2021-abbfec06')} target="_blank">
             <button className={style.bilet} >{<>Bilet Al</>}</button>
         </a>
         </div>
