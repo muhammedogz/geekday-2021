@@ -57,10 +57,7 @@ export default function Footer() {
         <div className={styles['footer-center-group']}>
           <p className={styles['footer-paragraph']}>
             <a
-              href={REPO}
-              className={styles['footer-link']}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={"/hakkinda"}
             >
               Hakkında
             </a>

@@ -11,3 +11,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .ortala{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
