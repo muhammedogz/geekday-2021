@@ -96,7 +96,7 @@ export default function SpeakerSection({ speaker }: Props) {
             </p>
             <h2 className={styles['bio-header']}>Bio</h2>
             <p className={styles.bio}>{speaker.bio}</p>
-            <h3 className={styles['socials-header']}>Social Media</h3>
+            <h3 className={styles['socials-header']}>Sosyal Medya</h3>
             {speaker.web ? (
               <a
                 aria-label="Twitter"

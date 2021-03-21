@@ -43,8 +43,7 @@ export default function Footer() {
         </div>
         <div className={styles['footer-copyright']}>
           Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} Tüm
-          hakları saklıdır.
-        </div>
+          hakları saklıdır.</div>
         <div >
             <a 
               href={"https://btgtu.com/linkler"}
@@ -63,10 +62,20 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Kaynak Koduna Git
+              Hakkında
             </a>
           </p>
           <div className={styles['footer-separator']} />
+          <p className={styles['footer-paragraph']}>
+            <a
+              href={REPO}
+              className={styles['footer-link']}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kaynak Koduna Git
+            </a>
+          </p>
           {LEGAL_URL && (
             <>
               <div className={styles['footer-separator']} />
