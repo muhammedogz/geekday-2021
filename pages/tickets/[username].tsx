@@ -83,7 +83,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
             name: name || username || null,
             ticketNumber: parseInt(ticketNumber, 10) || null
           },
-          revalidate: 5000
+          revalidate: 50000
         };
       }
     }
@@ -94,7 +94,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
         name: null,
         ticketNumber: null
       },
-      revalidate: 5000
+      revalidate: 50000
     };
   } else {
     return {
@@ -104,7 +104,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
         name: null,
         ticketNumber: SAMPLE_TICKET_NUMBER
       },
-      revalidate: 5000
+      revalidate: 50000
     };
   }
 };
