@@ -52,6 +52,6 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     props: {
       sponsors
     },
-    revalidate: 600
+    revalidate: 60
   };
 };
