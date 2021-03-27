@@ -51,6 +51,6 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     props: {
       speakers
     },
-    revalidate: 600
+    revalidate: 6000
   };
 };
