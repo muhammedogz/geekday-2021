@@ -21,7 +21,7 @@ import useLoginStatus from '@lib/hooks/use-login-status';
 import styles from './stage-container.module.css';
 import styleUtils from './utils.module.css';
 import ScheduleSidebar from './schedule-sidebar';
-
+import LiveChat from './live-chat'
 import ConfEntry from './conf-entry';
 
 type Props = {
@@ -67,8 +67,8 @@ export default function StageContainer({ stage, allStages }: Props) {
             </a>
         </div>
         </div>
-
       </div>
+      <LiveChat/>
       <ScheduleSidebar allStages={updatedStages} />
     </div>
   );

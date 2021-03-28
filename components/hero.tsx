@@ -19,7 +19,6 @@ import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
 import {DATE, SITE_DESCRIPTION } from '@lib/constants';
 import Bilet from "./button-bilet"
-import LiveChat from './live-chat'
 
 export default function Hero() {
   return (
@@ -36,7 +35,6 @@ export default function Hero() {
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
         <Bilet />
-        <LiveChat/>
       </h1>
       <h2
         className={cn(
