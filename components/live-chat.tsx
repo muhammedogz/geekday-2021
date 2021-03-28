@@ -12,7 +12,12 @@ const MyComp = () => {
       />
     }, []);
   
-    return (<div></div>)
+    return (<div><WidgetBot
+        server="825509154743517195"
+        channel="825509230546911292"
+        width={400}
+        height={400}
+      /></div>)
   }
 
 
