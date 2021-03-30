@@ -35,9 +35,9 @@ export default function Hero() {
         {"Bilgisayar Geeklerinin Buluşma Noktası! Sen de hemen yerini ayırt!"}
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-      <iframe width="185" height="315" src="https://www.youtube.com/live_chat?v=5qap5aO4i9A&embed_domain=geekday.live" 
+      <iframe width="185" height="315" src={"https://www.youtube.com/live_chat?v=5qap5aO4i9A&embed_domain=" + window.location.hostname}
       ></iframe>
-                <Iframe url={"https://www.youtube.com/live_chat?v=gnyW6uaUgk4&embed_domain=" + "geekday.live"}
+                <Iframe url={"https://www.youtube.com/live_chat?v=gnyW6uaUgk4&embed_domain=" + window.location.hostname}
                     width="450px"
                     height="450px"
                     id="gnyW6uaUgk4"
