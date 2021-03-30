@@ -19,6 +19,7 @@ import styleUtils from './utils.module.css';
 import styles from './hero.module.css';
 import {DATE, SITE_DESCRIPTION } from '@lib/constants';
 import Bilet from "./button-bilet"
+import Iframe from 'react-iframe'
 
 export default function Hero() {
   return (
@@ -34,6 +35,17 @@ export default function Hero() {
         {"Bilgisayar Geeklerinin Buluşma Noktası! Sen de hemen yerini ayırt!"}
       </h2>
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
+      <iframe width="185" height="315" src="https://www.youtube.com/live_chat?v=5qap5aO4i9A&embed_domain=geekday.live" 
+      ></iframe>
+                <Iframe url={"https://www.youtube.com/live_chat?v=gnyW6uaUgk4&embed_domain=" + "geekday.live"}
+                    width="450px"
+                    height="450px"
+                    id="gnyW6uaUgk4"
+                    className="myClassname"
+                    
+                    position="relative"
+                    referrerpolicy = "origin"
+                />
         <Bilet />
       </h1>
       <h2
