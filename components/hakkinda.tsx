@@ -5,7 +5,7 @@ import ConfContainer from './conf-container';
 import Hero from './hero';
 import Logo from "./geek-main-logo"
 import style from "./geek-background.module.css"
-import Iframe from 'react-iframe'
+
 
 
 
@@ -38,16 +38,6 @@ export default function Conf({
             </div>
 
         </div>
-        <Iframe 
-                url={"https://www.youtube.com/live_chat?v=gnyW6uaUgk4&embed_domain=" + "geekday.live"}
-                    width="450px"
-                    height="450px"
-                    id="gnyW6uaUgk4"
-                    className="myClassname"
-                    
-                    position="relative"
-                    referrerpolicy = "origin"
-                />
         </Layout>
         )
 }
