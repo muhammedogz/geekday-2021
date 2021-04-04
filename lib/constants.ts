@@ -46,11 +46,11 @@ export const NAVIGATION = [
   },
   {
     name: 'Salon 2',
-    route: '/stage/2'
+    route: '/stage/5'
   },
   {
     name: 'Salon 3',
-    route: '/stage/3'
+    route: '/stage/6'
   },
   {
     name: 'Salon 4',

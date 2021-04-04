@@ -31,11 +31,9 @@ export default function Hero() {
           styles.description
         )}
       >
-        {"Bilgisayar Geeklerinin Buluşma Noktası! Sen de hemen yerini ayırt!"}
+        {"Bilgisayar Geeklerinin Buluşma Noktası!"}
       </h2>
-      <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-        <Bilet />
-      </h1>
+
       <h2
         className={cn(
           styleUtils.appear,
@@ -44,8 +42,12 @@ export default function Hero() {
           styles.description
         )}
       >
-        {"Bilgisayar Geeklerinin Buluşma Noktası! Sen de hemen yerini ayırt!"}
+        {"Bilgisayar Geeklerinin Buluşma Noktası!"}
       </h2>
+      <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
+        <p>{"Sekmelerden Dilediğininz Yayini İzleyebilirsiniz!"}</p>
+
+      </div>
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
         <p>{DATE}</p>
         <div className={styles['description-separator']} />
