@@ -45,7 +45,7 @@ export default function Hero() {
         {"Bilgisayar Geeklerinin Buluşma Noktası!"}
       </h2>
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
-        <p>{"Sekmelerden Dilediğininz Yayini İzleyebilirsiniz!"}</p>
+        <p>{"Sekmelerden Dilediğininz Yayiin Kaydini İzleyebilirsiniz!"}</p>
 
       </div>
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
