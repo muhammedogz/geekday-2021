@@ -42,14 +42,26 @@ export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
     name: 'Salon 1',
-    route: '/stage/4'
+    route: '/stage/1'
   },
   {
     name: 'Salon 2',
-    route: '/stage/5'
+    route: '/stage/2'
   },
   {
     name: 'Salon 3',
+    route: '/stage/3'
+  },
+  {
+    name: 'Salon 4',
+    route: '/stage/4'
+  },
+  {
+    name: 'Salon 5',
+    route: '/stage/5'
+  },
+  {
+    name: 'Salon 6',
     route: '/stage/6'
   },
   {

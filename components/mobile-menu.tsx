@@ -55,15 +55,7 @@ function ModalDialog(props: Parameters<typeof useOverlay>[0] & Parameters<typeof
               </a>
             </Link>
           ))}
-          <Link  key={'name'} href={''}>
-          <a onClick={() => openInNewTab('https://kommunity.com/gebze-teknik-universitesi-bilgisayar-toplulugu/events/geekday2021-abbfec06')}
-                className={cn(styles.renk ,styles['nav-item'], {
-                  [styles['nav-active']]: activeRoute.startsWith('https://kommunity.com/gebze-teknik-universitesi-bilgisayar-toplulugu/events/geekday2021-abbfec06')
-                })}
-              >
-                    BILET AL!
-                  </a>
-        </Link>
+          
         </nav>
       </FocusScope>
     </div>
