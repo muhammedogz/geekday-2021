@@ -53,6 +53,10 @@ export const NAVIGATION = [
     route: '/stage/6'
   },
   {
+    name: 'Geekday Special',
+    route: '/stage/scott'
+  },
+  {
     name: 'Takvim',
     route: '/schedule'
   },
